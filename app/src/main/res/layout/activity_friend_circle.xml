@@ -6,19 +6,17 @@
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context="hawk007.com.friendcircle.MainActivity">
+    tools:context="hawk007.com.friendcircle.activite.FriendCircleActivity">
 
     <android.support.v7.widget.Toolbar
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="@color/colorPrimary"
-        app:title="主页"
+        app:title="微信朋友圈"
         app:titleTextColor="@android:color/white" />
-
-    <Button
-        android:id="@+id/main_friend_circle_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="微信,微博九宫格" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
 </LinearLayout>

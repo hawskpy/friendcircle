@@ -30,6 +30,7 @@ dependencies {
         exclude module: 'support-annotations'
         exclude module: 'support-v4'
     }
+    compile rootProject.ext.dependencies["support-v4"]
     compile rootProject.ext.dependencies["recyclerview-v7"]
     compile rootProject.ext.dependencies["constraint-layout"]
     compile(rootProject.ext.dependencies["butterknife"]) {
@@ -38,6 +39,10 @@ dependencies {
     annotationProcessor rootProject.ext.dependencies["butterknife-apt"]
     testCompile rootProject.ext.dependencies["junit"]
 
-    annotationProcessor rootProject.ext.dependencies["butterknife-apt"]
-    testCompile rootProject.ext.dependencies["junit"]
+    compile project(':photoviewer')
+
+//    compile(rootProject.ext.dependencies["glide"]){
+//        exclude module: 'support-annotations'
+//    }
+    compile rootProject.ext.dependencies["glide"]
 }

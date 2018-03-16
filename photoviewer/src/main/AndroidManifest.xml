@@ -1,2 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="hawk007.com.photoviewer" />
+    package="hawk007.com.photoviewer">
+
+    <application>
+        <activity android:name=".PhotoViewerActivity"
+            android:theme="@style/photoviewer_theme"></activity>
+    </application>
+
+</manifest>

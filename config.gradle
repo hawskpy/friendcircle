@@ -9,7 +9,7 @@ ext {
     ]
 
     versions = [
-            androidSupportSdkVersion: "26.0.2",
+            androidSupportSdkVersion: "27.0.2",
             butterknifeVersion      : "8.5.1",
     ]
 
