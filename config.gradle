@@ -1,0 +1,34 @@
+ext {
+    android = [
+            compileSdkVersion: 26,
+            buildToolsVersion: "26.0.2",
+            minSdkVersion    : 18,
+            targetSdkVersion : 25,
+            versionCode      : 1,
+            versionName      : "1.0.0",
+    ]
+
+    versions = [
+            androidSupportSdkVersion: "26.0.2",
+            butterknifeVersion      : "8.5.1",
+    ]
+
+    dependencies = [
+//support
+            "junit"            : "junit:junit:4.12",
+            "support-v4"       : "com.android.support:support-v4:${versions["androidSupportSdkVersion"]}",
+            "appcompat-v7"     : "com.android.support:appcompat-v7:${versions["androidSupportSdkVersion"]}",
+            "recyclerview-v7"  : "com.android.support:recyclerview-v7:${versions["androidSupportSdkVersion"]}",
+            "cardview-v7"      : "com.android.support:cardview-v7:${versions["androidSupportSdkVersion"]}",
+            "design"           : "com.android.support:design:${versions["androidSupportSdkVersion"]}",
+            "annotations"      : "com.android.support:support-annotations:${versions["androidSupportSdkVersion"]}",
+            "constraint-layout": "com.android.support.constraint:constraint-layout:1.0.2",
+
+
+            "butterknife"               : "com.jakewharton:butterknife:${versions["butterknifeVersion"]}",
+            "butterknife-apt"           : "com.jakewharton:butterknife-compiler:${versions["butterknifeVersion"]}",
+            "subsampling-scale-image-view"     : "com.davemorrissey.labs:subsampling-scale-image-view:3.7.2",
+
+            "glide"                     : "com.github.bumptech.glide:glide:4.3.0",
+    ]
+}
