@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     tools:context="hawk007.com.photoviewer.PhotoItemViewFragment">
 
-    <hawk007.com.photoviewer.DragPhotoView
+    <hawk007.com.photoviewer.view.DragPhotoView
         android:id="@+id/siv_raw_imageview"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

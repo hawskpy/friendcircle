@@ -1,4 +1,4 @@
-package hawk007.com.photoviewer;
+package hawk007.com.photoviewer.wight;
 
 import android.content.Context;
 import android.support.v4.view.ViewPager;

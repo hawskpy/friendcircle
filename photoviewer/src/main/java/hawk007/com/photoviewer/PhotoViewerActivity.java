@@ -15,6 +15,8 @@ import android.view.WindowManager;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+import hawk007.com.photoviewer.wight.PhotoViewPager;
+
 public class PhotoViewerActivity extends AppCompatActivity {
 
     private static final String EXTRA_POSITION = "photoviewer_extra_position";

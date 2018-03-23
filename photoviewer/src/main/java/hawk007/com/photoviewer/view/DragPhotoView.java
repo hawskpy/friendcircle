@@ -1,4 +1,4 @@
-package hawk007.com.photoviewer;
+package hawk007.com.photoviewer.view;
 
 import android.animation.ValueAnimator;
 import android.content.Context;
@@ -184,7 +184,7 @@ public class DragPhotoView extends SubsamplingScaleImageView {
         });
     }
 
-    void setDismissListener(OnPhotoViewActionListener listener){
+    public void setDismissListener(OnPhotoViewActionListener listener){
         this.dismissListener = listener;
     }
 

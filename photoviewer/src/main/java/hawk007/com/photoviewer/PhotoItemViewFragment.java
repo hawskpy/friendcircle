@@ -1,6 +1,5 @@
 package hawk007.com.photoviewer;
 
-import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Bundle;
@@ -20,6 +19,8 @@ import com.davemorrissey.labs.subscaleview.ImageSource;
 import com.davemorrissey.labs.subscaleview.SubsamplingScaleImageView;
 
 import java.io.File;
+
+import hawk007.com.photoviewer.view.DragPhotoView;
 
 
 /**
